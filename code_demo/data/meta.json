@@ -1,0 +1,11 @@
+{
+  "dataset": "Location",
+  "model": "MLP3",
+  "n_samples": 5010,
+  "n_shadow_models": 10,
+  "n_pairs": 5,
+  "pair_layout": "columns 2i and 2i+1 are an antithetic pair (membership masks complementary)",
+  "target_test_accuracy": 0.6067864271457086,
+  "signal_description": "rescaled_logits = log(p / (1 - p)) where p = ground-truth-label confidence",
+  "membership_mask_description": "True if the sample was in the model training set"
+}
